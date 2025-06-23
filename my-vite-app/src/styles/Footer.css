@@ -1,5 +1,5 @@
 .footer {
-    background-color: #0094ff;
+    background-image: linear-gradient(to top, #97b4de, #85b0e5, #6eaceb, #4fa8f2, #00a5f8);
     color: white;
     display: flex;
     justify-content: space-around;

@@ -6,7 +6,7 @@
 
 /* Hero Section */
 .hero {
-  background-color: #0094ff;
+  background-image: linear-gradient(to right top, #e1e6ee, #c1d6f3, #9dc7f7, #6fb9fb, #02abff);
   display: flex;
   align-items: center;
   justify-content: space-around;
