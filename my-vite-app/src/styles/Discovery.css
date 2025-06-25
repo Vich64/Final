@@ -1,17 +1,18 @@
 .book-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  padding: 0 20px;
-  margin-bottom: 40px;
+  gap: 1vw; /* was 20px */
+  padding: 0 2vw; /* was 20px */
+  margin-bottom: 2vw; /* was 40px */
 }
 
 .book-card {
   background-color: #ffffff;
   color: black;
-  border: 1px solid #ddd;
+  border: 0.1vw solid #ddd;
   text-align: center;
-  padding: 10px;
+  padding: 1vw; /* was 10px */
+  border-radius: 0.5vw;
 }
 
 .book-card img {

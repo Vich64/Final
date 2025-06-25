@@ -1,22 +1,22 @@
 .genres {
     background-color: #0094ff;
     color: black;
-    padding: 200px;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    padding: 3% 5%; /* was 200px, now 3% top/bottom, 5% left/right */
+    border-radius: 1vw; /* was 6px */
+    box-shadow: 0 0.2vw 0.8vw rgba(0,0,0,0.03);
 }
 .genre-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 60px;
+  gap: 3vw; /* was 60px */
 }
 
 .genre-card {
   background-color: #ffffff;
   color: black;
-  border: 1px solid #ddd;
+  border: 0.1vw solid #ddd;
   text-align: center;
-  padding: 25.8px 100px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  padding: 2vw 4vw; /* was 25.8px 100px */
+  border-radius: 1vw; /* was 10px */
+  box-shadow: 0 0.2vw 0.8vw rgba(0,0,0,0.03);
 }
